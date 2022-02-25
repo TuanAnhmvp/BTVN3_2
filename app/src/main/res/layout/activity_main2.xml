@@ -128,7 +128,7 @@
         android:layout_height="0dp"
         android:background="@drawable/shape1"
         android:textStyle="bold"
-        android:hint="Tiếp tục"
+        android:text="Tiếp tục"
         android:textSize="20sp"
         android:textColor="@color/white"
 
@@ -140,7 +140,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        />
     <TextView
         android:id="@+id/tv_2"
         android:layout_width="0dp"

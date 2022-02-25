@@ -37,6 +37,7 @@ public class MainActivity3 extends AppCompatActivity {
                     a = Float.parseFloat(nhapso1.getText().toString());
                     b = Float.parseFloat(nhapso2.getText().toString());
                     y = a + b;
+                    y = (float) (Math.round(y*10000.0)/ (10000.0));
                     ketqua.setText(String.valueOf(y));
                 }
 
@@ -54,6 +55,7 @@ public class MainActivity3 extends AppCompatActivity {
                     a = Float.parseFloat(nhapso1.getText().toString());
                     b = Float.parseFloat(nhapso2.getText().toString());
                     y = a - b;
+                    y = (float) (Math.round(y*10000.0)/ (10000.0));
                     ketqua.setText(String.valueOf(y));
                 }
 
@@ -71,6 +73,7 @@ public class MainActivity3 extends AppCompatActivity {
                     a = Float.parseFloat(nhapso1.getText().toString());
                     b = Float.parseFloat(nhapso2.getText().toString());
                     y = a * b;
+                    y = (float) (Math.round(y*10000.0)/ (10000.0));
                     ketqua.setText(String.valueOf(y));
                 }
 
@@ -88,7 +91,7 @@ public class MainActivity3 extends AppCompatActivity {
                     a = Float.parseFloat(nhapso1.getText().toString());
                     b = Float.parseFloat(nhapso2.getText().toString());
                     y = a / b;
-                    y = (float) (Math.round(y*100.0)/ (100.0));
+                    y = (float) (Math.round(y*10000.0)/ (10000.0));
                     ketqua.setText(String.valueOf(y));
                 }
 
